@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio of Piyush Mitra</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class ="logo"> Portfolio</a>
+
+        <i class='bx bx-menu' id = "menu-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <!-- <a href="#services">Services</a> -->
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+            
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <p>Hello, I'm</p>
+            <h1>Piyush Mitra</h1>
+            
+            <p>I'm a aspiring AIML engineer with eager interest in machine learning! Strong in critical thinking, problem solving and eager to contribute to a dynamic team and make innovative projects!  </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/piyush-mitra-551118322"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/PiyushMitra"><i class='bx bxl-github'></i></a>
+        
+            </div>
+            <a href="docs/Piyush_CV.pdf" download ="" role="button" class="btn" >Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/About.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About<span> Me</span></h2>
+            <h3>AIML engineer</h3>
+            <br>
+            <p>I’m currently studying Artificial Intelligence and Machine Learning with a strong interest in applying data-driven approaches to real-world problems. My goal is to collaborate with dynamic teams to develop impactful ML projects that not only push innovation forward but also create practical solutions that make people’s lives easier.  I have a strong foundation in Python, scikit-learn, and various machine learning frameworks, which I leverage to build innovative solutions.</p>
+            <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+    
+        <button id="openContactPopup">Contact ME</button>
+
+        <div id="contactPopupOverlay" class="popup-overlay">
+  <div id="contactPopup" class="popup">
+    <span id="closeContactPopup" class="close-button">&times;</span>
+    <h2>Contact Information</h2>
+    <p>Email: piyushmitra698@gmail.com</p>
+    <p>Phone: 6292158242</p>
+  </div>
+</div>
+    </section>
+    <!-- <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code' ></i>
+                <h3>Web Development</h3>
+                <p>bohot kuch</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code' ></i>
+                <h3>graphic Designer</h3>
+                <p>bohot kuch</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code' ></i>
+                <h3>Digital Marketer</h3>
+                <p>bohot kuch</p>
+                <a href="#" class="btn">read more</a>
+        </div>
+    </section> -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Face and Object Detection</h4>
+                    <p>Latest AI-powered camera system that can track faces in real time, detect objects. Uses computer vision, machine learning and voice recognition making it an interactive and flexible tool for monitoring as well as security purposes.</p>
+                    <a href="https://github.com/PiyushMitra/Face-and-Object-Detection.git"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Diabetes prediction</h4>
+                    <p> Implements a Diabetes Prediction System that uses Ridge Regression to predict whether or not a person has diabetes based on some of their input datas like age, cholestrol levels etc.</p>
+                    <a href="https://github.com/PiyushMitra/Diabetes-Prediction.git"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+<!-- 
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Plant Disease detection</h4>
+                    <p>yet to be added</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span> Me!</span></h2>
+
+        <form action="">
+            <div class="input-box">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile No" required>
+                <input type="text" placeholder="Subject" required>
+
+            </div>
+            
+            <textarea name ="" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+            
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy ; 2025 by Piyush Mitra | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src = "js/script.js"></script>
+</body>
+</html>
